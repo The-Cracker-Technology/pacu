@@ -10,8 +10,7 @@ python3 -m venv pacuenv
 
 source pacuenv/bin/activate
 
-which python3
-which pip3
+pip3 install -r requirements.txt
 
 deactivate
 
